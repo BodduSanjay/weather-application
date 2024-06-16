@@ -1,0 +1,21 @@
+.logo-cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.heading-part {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Niconne;
+}
+  
+.theme-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-right: 30px;
+}

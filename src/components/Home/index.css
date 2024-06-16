@@ -1,0 +1,247 @@
+*{
+    font-family: Roboto;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.temp-card {
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url('https://res.cloudinary.com/dnm4q4bgp/image/upload/v1718471011/thumb-1920-375724_xesn0y.jpg');
+    background-size: cover;
+}
+
+
+.location-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: Roboto;
+    align-self: flex-start;
+    margin-top: 15px;
+}
+
+.tem-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.temp-image-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.min-max-temp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.min-para{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto;
+    margin-right: 20px;
+}
+
+.temparature-text {
+    font-size: 50px;
+    color: white;
+    font-family: Roboto;
+    line-height: 50%;    
+}
+
+.weather-icon{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.date-time-text {
+    font-size: 15px;
+    color: white;
+    font-family: Roboto;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.additional-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.humidity-text {
+    font-size: 15px;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    border: 1px white solid;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.error-para{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.failure-image{
+    height: 300px;
+    width: 350px;
+}
+
+.button-text-cont{
+    background-color: #9642eb;
+    width: 100vw;
+    padding: 20px 15px 20px 15px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.heading-cities{
+    color: white;
+    font-family: Geneva;
+    font-size: 50px;
+    line-height: 100%;
+    margin-left: 20px;
+}
+
+.explaination-para{
+    color: white;
+    font-size: 15px;
+    font-family: Inter;
+    width: 70%;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 20px;
+    line-height: 200%;
+}
+
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    padding-left: 0%;
+    width: 100%;
+}
+
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 500px;
+}
+
+.about-me-container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+.link-weki{
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+.link-weki:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a{
+    color: #1E90FF;
+    font-weight: 500;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.profile-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.profile-image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.about-me-para{
+    font-family: Inter;
+    width: 80%;
+    line-height: 200%;
+}
+
+.weather-explian-container{
+    background-color: #fcebe1;
+    padding: 50px;
+    font-family: Inter;
+}
+
+@media (max-width: 767px) {
+    .weather-icon{
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .temparature-text{
+        font-size: 30px;
+    }
+    .button-text-cont{
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .heading-cities{
+        font-size: 30px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .explaination-para{
+        width: 100%;
+        text-align: left;
+        line-height: 150%;
+    }
+    .about-me-para{
+        line-height: 150%;
+    }
+    .weather-explian-container{
+        padding: 20px;
+    }
+}
+

@@ -1,0 +1,38 @@
+.active-btn{
+  height: 30px;
+  width: 120px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  color: black;
+}
+
+.normal-btn{
+  height: 30px;
+  width: 120px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  transition: background-color 0.3s color 0.3s;
+}
+
+.normal-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .normal-btn{
+        width: 90px;
+    }
+    .active-btn{
+        width: 90px;
+    }
+}
